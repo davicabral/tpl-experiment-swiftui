@@ -16,6 +16,7 @@
 		DA306C982C24DDE9005B370D /* TPL_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306C972C24DDE9005B370D /* TPL_SwiftUITests.swift */; };
 		DA306CA22C24DDE9005B370D /* TPL_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */; };
 		DA306CA42C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */; };
+		DA306CB22C24DEF2005B370D /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB12C24DEF2005B370D /* Branch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		DA306C9D2C24DDE9005B370D /* TPL-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPL-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA306CB12C24DEF2005B370D /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		DA306C802C24DDE7005B370D /* TPL-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DA306CB02C24DEE9005B370D /* Models */,
 				DA306C812C24DDE7005B370D /* TPL_SwiftUIApp.swift */,
 				DA306C832C24DDE7005B370D /* ContentView.swift */,
 				DA306C852C24DDE9005B370D /* Assets.xcassets */,
@@ -131,6 +134,14 @@
 				DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */,
 			);
 			path = "TPL-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		DA306CB02C24DEE9005B370D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB12C24DEF2005B370D /* Branch.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 			files = (
 				DA306C8B2C24DDE9005B370D /* Persistence.swift in Sources */,
 				DA306C842C24DDE7005B370D /* ContentView.swift in Sources */,
+				DA306CB22C24DEF2005B370D /* Branch.swift in Sources */,
 				DA306C8E2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld in Sources */,
 				DA306C822C24DDE7005B370D /* TPL_SwiftUIApp.swift in Sources */,
 			);
