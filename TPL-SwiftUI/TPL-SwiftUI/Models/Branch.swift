@@ -11,8 +11,7 @@ struct Branch: Codable, Equatable, Hashable {
     let name: String
     let address: Address
     var services: [Service]
-    var openHour: Int
-    var closeHour: Int
+    var isOpen: Bool
     
     static func == (lhs: Branch, rhs: Branch) -> Bool {
         lhs.name == rhs.name
@@ -57,8 +56,7 @@ extension Branch {
                             description: "",
                             imageURL: "")
                    ],
-                   openHour: 9,
-                   closeHour: 17),
+                   isOpen: true),
             Branch(name: "Albert Campbell",
                    address: Address(street: "496 Birchmount Road",
                                     postalCode: "M1K 1N8",
@@ -71,8 +69,7 @@ extension Branch {
                             description: "",
                             imageURL: "")
                    ],
-                   openHour: 9,
-                   closeHour: 17),
+                   isOpen: false),
             Branch(name: "Toronto Reference Library",
                    address: Address(street: "789 Yonge Street",
                                     postalCode: "M4W 2G8",
@@ -85,8 +82,7 @@ extension Branch {
                             description: "",
                             imageURL: "")
                    ],
-                   openHour: 9,
-                   closeHour: 17)
+                   isOpen: true)
         ]
     }
 }

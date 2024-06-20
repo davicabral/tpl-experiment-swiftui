@@ -17,6 +17,8 @@
 		DA306CA22C24DDE9005B370D /* TPL_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */; };
 		DA306CA42C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */; };
 		DA306CB22C24DEF2005B370D /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB12C24DEF2005B370D /* Branch.swift */; };
+		DA306CB82C24DF72005B370D /* BranchSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB72C24DF72005B370D /* BranchSelectionView.swift */; };
+		DA306CBA2C24ECE7005B370D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB92C24ECE7005B370D /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DA306CB12C24DEF2005B370D /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		DA306CB72C24DF72005B370D /* BranchSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchSelectionView.swift; sourceTree = "<group>"; };
+		DA306CB92C24ECE7005B370D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 		DA306C802C24DDE7005B370D /* TPL-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DA306CB32C24DF3B005B370D /* Dashboard */,
 				DA306CB02C24DEE9005B370D /* Models */,
 				DA306C812C24DDE7005B370D /* TPL_SwiftUIApp.swift */,
 				DA306C832C24DDE7005B370D /* ContentView.swift */,
@@ -142,6 +147,23 @@
 				DA306CB12C24DEF2005B370D /* Branch.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		DA306CB32C24DF3B005B370D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB42C24DF48005B370D /* Views */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		DA306CB42C24DF48005B370D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB72C24DF72005B370D /* BranchSelectionView.swift */,
+				DA306CB92C24ECE7005B370D /* DashboardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,7 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA306C8B2C24DDE9005B370D /* Persistence.swift in Sources */,
+				DA306CB82C24DF72005B370D /* BranchSelectionView.swift in Sources */,
 				DA306C842C24DDE7005B370D /* ContentView.swift in Sources */,
+				DA306CBA2C24ECE7005B370D /* DashboardView.swift in Sources */,
 				DA306CB22C24DEF2005B370D /* Branch.swift in Sources */,
 				DA306C8E2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld in Sources */,
 				DA306C822C24DDE7005B370D /* TPL_SwiftUIApp.swift in Sources */,
