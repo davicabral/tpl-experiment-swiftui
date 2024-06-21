@@ -18,6 +18,7 @@ struct BranchSelectionView: View {
                     Text(branch.name)
                         .bold()
                     Text(branch.address.description)
+                        .font(.callout)
                     Text(branch.isOpen ? "Open" : "Closed")
                         .foregroundStyle(branch.isOpen ? .green : .red)
                         
@@ -25,7 +26,7 @@ struct BranchSelectionView: View {
                 
                 Spacer()
                 Button(action: { print("GPS") }) {
-                    Image(systemName: "mappin.circle.fill")
+                    Image(systemName: "mappin.and.ellipse.circle.fill")
                         .resizable()
                         .frame(width: 30, height: 30)
                 }
