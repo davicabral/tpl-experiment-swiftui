@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA306C822C24DDE7005B370D /* TPL_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306C812C24DDE7005B370D /* TPL_SwiftUIApp.swift */; };
+		DA306C842C24DDE7005B370D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306C832C24DDE7005B370D /* ContentView.swift */; };
+		DA306C862C24DDE9005B370D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA306C852C24DDE9005B370D /* Assets.xcassets */; };
+		DA306C892C24DDE9005B370D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA306C882C24DDE9005B370D /* Preview Assets.xcassets */; };
+		DA306C8B2C24DDE9005B370D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306C8A2C24DDE9005B370D /* Persistence.swift */; };
+		DA306C8E2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA306C8C2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld */; };
+		DA306C982C24DDE9005B370D /* TPL_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306C972C24DDE9005B370D /* TPL_SwiftUITests.swift */; };
+		DA306CA22C24DDE9005B370D /* TPL_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */; };
+		DA306CA42C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */; };
+		DA306CB22C24DEF2005B370D /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB12C24DEF2005B370D /* Branch.swift */; };
+		DA306CB82C24DF72005B370D /* BranchSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB72C24DF72005B370D /* BranchSelectionView.swift */; };
+		DA306CBA2C24ECE7005B370D /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CB92C24ECE7005B370D /* DashboardView.swift */; };
+		DA306CBD2C24F7B9005B370D /* BranchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA306CBC2C24F7B9005B370D /* BranchListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA306C942C24DDE9005B370D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA306C762C24DDE7005B370D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA306C7D2C24DDE7005B370D;
+			remoteInfo = "TPL-SwiftUI";
+		};
+		DA306C9E2C24DDE9005B370D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA306C762C24DDE7005B370D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA306C7D2C24DDE7005B370D;
+			remoteInfo = "TPL-SwiftUI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA306C7E2C24DDE7005B370D /* TPL-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TPL-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA306C812C24DDE7005B370D /* TPL_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIApp.swift; sourceTree = "<group>"; };
+		DA306C832C24DDE7005B370D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA306C852C24DDE9005B370D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA306C882C24DDE9005B370D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA306C8A2C24DDE9005B370D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DA306C8D2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TPL_SwiftUI.xcdatamodel; sourceTree = "<group>"; };
+		DA306C932C24DDE9005B370D /* TPL-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPL-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA306C972C24DDE9005B370D /* TPL_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUITests.swift; sourceTree = "<group>"; };
+		DA306C9D2C24DDE9005B370D /* TPL-SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TPL-SwiftUIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIUITests.swift; sourceTree = "<group>"; };
+		DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TPL_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA306CB12C24DEF2005B370D /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		DA306CB72C24DF72005B370D /* BranchSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchSelectionView.swift; sourceTree = "<group>"; };
+		DA306CB92C24ECE7005B370D /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		DA306CBC2C24F7B9005B370D /* BranchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BranchListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA306C7B2C24DDE7005B370D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA306C902C24DDE9005B370D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA306C9A2C24DDE9005B370D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA306C752C24DDE7005B370D = {
+			isa = PBXGroup;
+			children = (
+				DA306C802C24DDE7005B370D /* TPL-SwiftUI */,
+				DA306C962C24DDE9005B370D /* TPL-SwiftUITests */,
+				DA306CA02C24DDE9005B370D /* TPL-SwiftUIUITests */,
+				DA306C7F2C24DDE7005B370D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA306C7F2C24DDE7005B370D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA306C7E2C24DDE7005B370D /* TPL-SwiftUI.app */,
+				DA306C932C24DDE9005B370D /* TPL-SwiftUITests.xctest */,
+				DA306C9D2C24DDE9005B370D /* TPL-SwiftUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA306C802C24DDE7005B370D /* TPL-SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB32C24DF3B005B370D /* Dashboard */,
+				DA306CB02C24DEE9005B370D /* Models */,
+				DA306C812C24DDE7005B370D /* TPL_SwiftUIApp.swift */,
+				DA306C832C24DDE7005B370D /* ContentView.swift */,
+				DA306C852C24DDE9005B370D /* Assets.xcassets */,
+				DA306C8A2C24DDE9005B370D /* Persistence.swift */,
+				DA306C8C2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld */,
+				DA306C872C24DDE9005B370D /* Preview Content */,
+			);
+			path = "TPL-SwiftUI";
+			sourceTree = "<group>";
+		};
+		DA306C872C24DDE9005B370D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA306C882C24DDE9005B370D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA306C962C24DDE9005B370D /* TPL-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA306C972C24DDE9005B370D /* TPL_SwiftUITests.swift */,
+			);
+			path = "TPL-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		DA306CA02C24DDE9005B370D /* TPL-SwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CA12C24DDE9005B370D /* TPL_SwiftUIUITests.swift */,
+				DA306CA32C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift */,
+			);
+			path = "TPL-SwiftUIUITests";
+			sourceTree = "<group>";
+		};
+		DA306CB02C24DEE9005B370D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB12C24DEF2005B370D /* Branch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DA306CB32C24DF3B005B370D /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB42C24DF48005B370D /* Views */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		DA306CB42C24DF48005B370D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA306CB72C24DF72005B370D /* BranchSelectionView.swift */,
+				DA306CB92C24ECE7005B370D /* DashboardView.swift */,
+				DA306CBC2C24F7B9005B370D /* BranchListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA306C7D2C24DDE7005B370D /* TPL-SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA306CA72C24DDE9005B370D /* Build configuration list for PBXNativeTarget "TPL-SwiftUI" */;
+			buildPhases = (
+				DA306C7A2C24DDE7005B370D /* Sources */,
+				DA306C7B2C24DDE7005B370D /* Frameworks */,
+				DA306C7C2C24DDE7005B370D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPL-SwiftUI";
+			productName = "TPL-SwiftUI";
+			productReference = DA306C7E2C24DDE7005B370D /* TPL-SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA306C922C24DDE9005B370D /* TPL-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA306CAA2C24DDE9005B370D /* Build configuration list for PBXNativeTarget "TPL-SwiftUITests" */;
+			buildPhases = (
+				DA306C8F2C24DDE9005B370D /* Sources */,
+				DA306C902C24DDE9005B370D /* Frameworks */,
+				DA306C912C24DDE9005B370D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA306C952C24DDE9005B370D /* PBXTargetDependency */,
+			);
+			name = "TPL-SwiftUITests";
+			productName = "TPL-SwiftUITests";
+			productReference = DA306C932C24DDE9005B370D /* TPL-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA306C9C2C24DDE9005B370D /* TPL-SwiftUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA306CAD2C24DDE9005B370D /* Build configuration list for PBXNativeTarget "TPL-SwiftUIUITests" */;
+			buildPhases = (
+				DA306C992C24DDE9005B370D /* Sources */,
+				DA306C9A2C24DDE9005B370D /* Frameworks */,
+				DA306C9B2C24DDE9005B370D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA306C9F2C24DDE9005B370D /* PBXTargetDependency */,
+			);
+			name = "TPL-SwiftUIUITests";
+			productName = "TPL-SwiftUIUITests";
+			productReference = DA306C9D2C24DDE9005B370D /* TPL-SwiftUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA306C762C24DDE7005B370D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DA306C7D2C24DDE7005B370D = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DA306C922C24DDE9005B370D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DA306C7D2C24DDE7005B370D;
+					};
+					DA306C9C2C24DDE9005B370D = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DA306C7D2C24DDE7005B370D;
+					};
+				};
+			};
+			buildConfigurationList = DA306C792C24DDE7005B370D /* Build configuration list for PBXProject "TPL-SwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA306C752C24DDE7005B370D;
+			productRefGroup = DA306C7F2C24DDE7005B370D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA306C7D2C24DDE7005B370D /* TPL-SwiftUI */,
+				DA306C922C24DDE9005B370D /* TPL-SwiftUITests */,
+				DA306C9C2C24DDE9005B370D /* TPL-SwiftUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA306C7C2C24DDE7005B370D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA306C892C24DDE9005B370D /* Preview Assets.xcassets in Resources */,
+				DA306C862C24DDE9005B370D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA306C912C24DDE9005B370D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA306C9B2C24DDE9005B370D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA306C7A2C24DDE7005B370D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA306C8B2C24DDE9005B370D /* Persistence.swift in Sources */,
+				DA306CB82C24DF72005B370D /* BranchSelectionView.swift in Sources */,
+				DA306C842C24DDE7005B370D /* ContentView.swift in Sources */,
+				DA306CBA2C24ECE7005B370D /* DashboardView.swift in Sources */,
+				DA306CBD2C24F7B9005B370D /* BranchListView.swift in Sources */,
+				DA306CB22C24DEF2005B370D /* Branch.swift in Sources */,
+				DA306C8E2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld in Sources */,
+				DA306C822C24DDE7005B370D /* TPL_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA306C8F2C24DDE9005B370D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA306C982C24DDE9005B370D /* TPL_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA306C992C24DDE9005B370D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA306CA22C24DDE9005B370D /* TPL_SwiftUIUITests.swift in Sources */,
+				DA306CA42C24DDE9005B370D /* TPL_SwiftUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA306C952C24DDE9005B370D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA306C7D2C24DDE7005B370D /* TPL-SwiftUI */;
+			targetProxy = DA306C942C24DDE9005B370D /* PBXContainerItemProxy */;
+		};
+		DA306C9F2C24DDE9005B370D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA306C7D2C24DDE7005B370D /* TPL-SwiftUI */;
+			targetProxy = DA306C9E2C24DDE9005B370D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA306CA52C24DDE9005B370D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA306CA62C24DDE9005B370D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA306CA82C24DDE9005B370D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TPL-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 83XT2J75S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cabral.oliveira.TPL-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA306CA92C24DDE9005B370D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TPL-SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 83XT2J75S2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cabral.oliveira.TPL-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA306CAB2C24DDE9005B370D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83XT2J75S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cabral.oliveira.TPL-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPL-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TPL-SwiftUI";
+			};
+			name = Debug;
+		};
+		DA306CAC2C24DDE9005B370D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83XT2J75S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cabral.oliveira.TPL-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TPL-SwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TPL-SwiftUI";
+			};
+			name = Release;
+		};
+		DA306CAE2C24DDE9005B370D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83XT2J75S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cabral.oliveira.TPL-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TPL-SwiftUI";
+			};
+			name = Debug;
+		};
+		DA306CAF2C24DDE9005B370D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83XT2J75S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.cabral.oliveira.TPL-SwiftUIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TPL-SwiftUI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA306C792C24DDE7005B370D /* Build configuration list for PBXProject "TPL-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA306CA52C24DDE9005B370D /* Debug */,
+				DA306CA62C24DDE9005B370D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA306CA72C24DDE9005B370D /* Build configuration list for PBXNativeTarget "TPL-SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA306CA82C24DDE9005B370D /* Debug */,
+				DA306CA92C24DDE9005B370D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA306CAA2C24DDE9005B370D /* Build configuration list for PBXNativeTarget "TPL-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA306CAB2C24DDE9005B370D /* Debug */,
+				DA306CAC2C24DDE9005B370D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA306CAD2C24DDE9005B370D /* Build configuration list for PBXNativeTarget "TPL-SwiftUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA306CAE2C24DDE9005B370D /* Debug */,
+				DA306CAF2C24DDE9005B370D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA306C8C2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA306C8D2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodel */,
+			);
+			currentVersion = DA306C8D2C24DDE9005B370D /* TPL_SwiftUI.xcdatamodel */;
+			path = TPL_SwiftUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA306C762C24DDE7005B370D /* Project object */;
+}
