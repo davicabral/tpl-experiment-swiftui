@@ -41,6 +41,13 @@ struct BranchSelectionView: View {
     }
 }
 
-//#Preview {
-//    BranchSelectionView(branch: Branch.branchList().first!)
-//}
+#Preview {
+    struct FeaturePreview: View {
+        
+        @State private var branch: Branch = Branch.branchList().first!
+        var body: some View {
+            BranchSelectionView(branch: $branch)
+        }
+    }
+    return FeaturePreview()
+}
