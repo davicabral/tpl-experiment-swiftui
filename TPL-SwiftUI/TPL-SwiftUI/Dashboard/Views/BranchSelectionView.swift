@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BranchSelectionView: View {
     
-    var branch: Branch
+    @Binding var branch: Branch
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
@@ -18,7 +18,7 @@ struct BranchSelectionView: View {
                     Text(branch.name)
                         .bold()
                     Text(branch.address.description)
-                    Text(branch.isOpen ? "Open" : "Close")
+                    Text(branch.isOpen ? "Open" : "Closed")
                         .foregroundStyle(branch.isOpen ? .green : .red)
                         
                 }
@@ -40,6 +40,6 @@ struct BranchSelectionView: View {
     }
 }
 
-#Preview {
-    BranchSelectionView(branch: Branch.branchList().first!)
-}
+//#Preview {
+//    BranchSelectionView(branch: Branch.branchList().first!)
+//}

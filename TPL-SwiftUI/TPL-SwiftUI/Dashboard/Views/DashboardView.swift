@@ -8,18 +8,30 @@
 import SwiftUI
 
 struct DashboardView: View {
+    
+    @ObservedObject var viewModel: DashboardViewModel = DashboardViewModel()
+    
     var body: some View {
         NavigationStack {
-            Button {
-                print("Button")
-            } label: {
-                BranchSelectionView(branch: Branch.branchList().first!)
+            VStack {
+                NavigationLink(value: viewModel.currentBranch) {
+                    BranchSelectionView(branch: $viewModel.currentBranch)
+                }
+                .buttonStyle(.plain)
+                Spacer()
             }
-            .buttonStyle(.plain)
-
-            
+            .navigationTitle("TPL")
+            .navigationDestination(for: Branch.self) { branch in
+                BranchListView(selectedBranch: $viewModel.currentBranch)
+            }
         }
+        
     }
+}
+
+class DashboardViewModel: ObservableObject {
+    
+    @Published var currentBranch: Branch = Branch.branchList().first!
 }
 
 #Preview {
